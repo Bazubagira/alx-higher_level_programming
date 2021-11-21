@@ -1,0 +1,1 @@
+The project contains codes on python lists, structures and truples.
