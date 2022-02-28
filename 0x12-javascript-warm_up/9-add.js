@@ -2,9 +2,10 @@
 
 //adds two integers
 
-function add (a,b) {
-let sum = a + b ;
-	console.log (sum);
+const a = parseInt(process.argv[2], 10);
+const b = parseInt(process.argv[3], 10);
+function add (x, y) {
+  return (x + y);
 }
-add ();
+console.log(add(a, b));
 
